@@ -1,0 +1,114 @@
+.App {
+  background-color: #282c34;  
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.App-logo {
+  height: 10vmin;
+  padding-left: 20px;
+  pointer-events: none;
+  
+}
+
+
+.App-name {
+  position: relative;
+  margin: 0 auto; /* Centers horizontally */
+  text-align: center; /* Centers text inside the element */
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  font-size: calc(80px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282c34;
+}
+
+.welcome-text {
+  padding-top: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.Input-container {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: white;
+}
+.input-box{
+  height: 75px;
+  width: 500px;
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+}
+.Add-text {
+  padding-left: 10px;
+  padding-right: 30px;
+  font-size: 25px;
+}
+
+.Add-button {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.Remove-button {
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto; 
+  display: flex;
+}
+
+.add,
+.remove{
+  height: 5vmin;
+  width: 5vmin;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  height: 50px;
+  width: 500px;
+  border-radius: 8px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+
